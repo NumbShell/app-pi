@@ -1,0 +1,36 @@
+html {
+	position: absolute;
+	top:0;
+	left:0;
+
+	max-height: 100%;
+	width: 100%;
+
+	margin:0;
+	padding:0;
+}
+
+.contaier_fluid {
+	width: 100%;
+	height: 100%;
+}
+
+.container_fluid .outer .main img {
+	display: none !important;
+}
+
+.main {
+	width: 100vh;
+	height: 100vh;
+}
+
+.cover {
+	opacity: 1;
+}
+
+.content {
+	position: absolute;
+	top: 0;
+	left:0;
+	max-width: 50vh;
+}
