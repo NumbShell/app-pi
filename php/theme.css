@@ -1,0 +1,19 @@
+h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.forecast {
+/*	font-family: 'Oswald', sans-serif;*/
+	display: inline-block;
+	padding: 20px;
+	background-color: #09b5f7;
+	border-radius: 5px;
+	color: white;
+
+	text-align: center;
+
+	font-size: 48px; 
+}
+
+img {
+}
