@@ -1,19 +1,45 @@
-h1 {
-	font-family: 'Oswald', sans-serif;
+html, body {
+	height: 100%;
+	width: 100%;
+
+	background-color: #508ced;
+	color: white;
+	overflow: hidden;
 }
 
-.forecast {
-/*	font-family: 'Oswald', sans-serif;*/
+h1 {
+	text-transform: uppercase;
+	font-family: 'Anton', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+div {
 	display: inline-block;
-	padding: 20px;
-	background-color: #09b5f7;
-	border-radius: 5px;
-	color: white;
+	color: #508ced;
+	padding: 10px;
+	background-color: white;
 
 	text-align: center;
+	border-radius: 5px;
 
-	font-size: 48px; 
+	position: absolute;
+	top:50%;
+	left: 50%;
+
+	height: 164px;
+	width: 324px;
+	margin-left: -162px;
+	margin-top: -82px;
+
+	box-shadow: 10px 10px 4px rgba(0,0,0,0.3);
 }
 
-img {
+.grad {
+	background: linear-gradient(#61a9f1, #276bdc);
 }

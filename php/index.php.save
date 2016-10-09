@@ -1,14 +1,13 @@
-<html class="grad">
+<html>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="theme.css">
 <title>Weather</title>
 </head>
-<body class="grad">
+<body>
 
 <div>
 <h1>Current weather</h1>
-<h2>Karlshamn</h2>
 
 <?php
 	include("simple_html_dom.php");
